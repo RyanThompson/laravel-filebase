@@ -1,0 +1,44 @@
+{
+    "name": "RyanThompson/laravel-filebase",
+    "description": "A Filebase driver for Laravel's Eloquent ORM.",
+    "type": "project",
+    "keywords": [
+        "laravel",
+        "filebase",
+        "eloquent"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ryan Thompson",
+            "email": "ryan@pyrocms.com"
+        }
+    ],
+    "require": {
+        "tmarois/filebase": "^1.0"
+    },
+    "require-dev": {
+        
+    },
+    "autoload": {
+        "psr-4": {
+            "RyanThompson\\Filebase\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "RyanThompson\\Filebase\\FilebaseServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    }
+}
