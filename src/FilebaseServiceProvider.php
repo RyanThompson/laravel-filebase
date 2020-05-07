@@ -2,10 +2,18 @@
 
 namespace RyanThompson\Filebase;
 
-class FileBaseServiceProvider
+use Illuminate\Support\ServiceProvider;
+
+/**
+ * FileBaseServiceProvider class.
+ *
+ * @link   http://pyrocms.com/
+ * @author Ryan Thompson <ryan@pyrocms.com>
+ */
+class FileBaseServiceProvider extends ServiceProvider
 {
     public function boot()
     {
-        dd('Test');
+        //dd('Test');
     }
 }

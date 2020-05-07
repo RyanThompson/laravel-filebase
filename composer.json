@@ -1,5 +1,5 @@
 {
-    "name": "RyanThompson/laravel-filebase",
+    "name": "ryanthompson/laravel-filebase",
     "description": "A Filebase driver for Laravel's Eloquent ORM.",
     "type": "project",
     "keywords": [
