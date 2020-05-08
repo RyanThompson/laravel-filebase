@@ -1,0 +1,13 @@
+{
+    "__created_at": 1588955148,
+    "__updated_at": 1588955148,
+    "data": {
+        "name": {
+            "en": "Admin"
+        },
+        "description": {
+            "en": "The super admin role."
+        },
+        "slug": "admin"
+    }
+}

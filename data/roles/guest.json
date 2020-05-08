@@ -1,0 +1,13 @@
+{
+    "__created_at": 1588955148,
+    "__updated_at": 1588955148,
+    "data": {
+        "name": {
+            "en": "Guest"
+        },
+        "description": {
+            "en": "The fallback role for non-users."
+        },
+        "slug": "guest"
+    }
+}
